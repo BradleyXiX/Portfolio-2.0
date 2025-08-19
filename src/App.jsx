@@ -1,8 +1,11 @@
-import React from 'react'
+import Navbar from './sections/navbar'
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold'>App</div>
+    <div className='container mx-auto max-w-7xl'>
+      <Navbar />
+    </div>
+
   )
 }
 
