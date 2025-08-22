@@ -3,34 +3,24 @@ export const myProjects = [
     id: 1,
     title: "E-commerce Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "QuickCart is a basic E-commerce website template",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built with Next.js, React, and Tailwind CSS.",
+      "Browse and search for products.",
+      "Authentication-ready (Clerk integration)",
+      "Fast, responsive, and mobile-friendly UI",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/E-commerce 1.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
@@ -38,18 +28,18 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Movie Ticket Platform",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Showtime is a full-stack movie ticket booking application.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Browse now playing movie trailers (fetched from TMDB)",
+      "Book seats and pay securely",
+      "Admin dashboard for managing shows and bookings",
+      "Responsive UI built with React, Tailwind CSS, and Vite",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Showtime.png",
     tags: [
       {
         id: 1,
@@ -75,44 +65,24 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Chess Game",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A webpage to play chess.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Play with a friend or Computer ",
+      "Utilizes Stockfish AI",
+      "Has five levels of difficulty",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/Chess-game.png",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Portfolio Template",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
     subDescription: [
@@ -127,50 +97,35 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
         name: "Git",
         path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Taste Bud",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "Taste Bud is a React application that helps you discover delicious recipes based on the ingredients you have on hand, powered by the DeepSeek API.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Ingredient-based search - Find recipes using what you already have",
+      "AI-powered suggestions - Get creative recipe ideas from DeepSeek's advanced AI",
+      "Responsive design - Works on desktop, tablet, and mobile devices",
+      "Simple interface - Easy-to-use for all cooking skill levels",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/notes 1.png",
     tags: [
       {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
@@ -184,43 +139,7 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  
 ];
 
 export const mySocials = [
