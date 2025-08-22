@@ -10,19 +10,25 @@ export const myProjects = [
       "Authentication-ready (Clerk integration)",
       "Fast, responsive, and mobile-friendly UI",
     ],
-    href: "",
+    href: "https://quickcart.greatstack.in/",
+    source: "https://github.com/BradleyXiX/eCommerce-website",
     logo: "",
     image: "/assets/projects/E-commerce 1.png",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Next JS",
+        path: "/assets/logos/nextjs-icon.svg",
       },
       {
         id: 2,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
@@ -37,14 +43,15 @@ export const myProjects = [
       "Admin dashboard for managing shows and bookings",
       "Responsive UI built with React, Tailwind CSS, and Vite",
     ],
-    href: "",
+    href: "https://quickshow.vercel.app",
+    source: "https://github.com/BradleyXiX/Showtime",
     logo: "",
     image: "/assets/projects/Showtime.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb-icon.svg",
       },
       {
         id: 2,
@@ -53,13 +60,18 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Express",
+        path: "/assets/logos/express-js-icon.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "NodeJS",
+        path: "/assets/logos/node-js-icon.svg",
       },
     ],
   },
@@ -73,37 +85,48 @@ export const myProjects = [
       "Utilizes Stockfish AI",
       "Has five levels of difficulty",
     ],
-    href: "",
+    href: "https://awsomecstutorials.github.io/chess-game/",
+    source: "https://github.com/BradleyXiX/Chess-game",
     logo: "",
     image: "/assets/projects/Chess-game.png",
     tags: [
-      
+      {
+        id: 1,
+        name: "Typescript",
+        path: "/assets/logos/typescript-programming-language-icon.svg",
+      },
     ],
   },
   {
     id: 4,
     title: "Portfolio Template",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "This is my personal portfolio website, built to showcase my skills, projects, and services as a software developer.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Home Section:Brief introduction and links to social profiles.",
+      "About Section: Overview of my background and approach to software development.",
+      "Projects Section: Showcases selected projects with descriptions and links.",
+      "Services Section: Outlines the services I offer, including UI/UX design, frontend, and backend development.",
     ],
-    href: "",
+    href: "https://bradleyxix.github.io/Portfolio/",
+    source: "https://github.com/BradleyXiX/Portfolio",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/Portfolio.png",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Javascript",
+        path: "/assets/logos/javscript.svg",
       },
       {
         id: 2,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 3,
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
     ],
   },
@@ -119,8 +142,9 @@ export const myProjects = [
       "Simple interface - Easy-to-use for all cooking skill levels",
     ],
     href: "",
+    source: "https://github.com/BradleyXiX/Taste-Bud",
     logo: "",
-    image: "/assets/projects/notes 1.png",
+    image: "/assets/projects/TasteBud.png",
     tags: [
       {
         id: 2,
@@ -134,8 +158,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "DeepSeek AI",
+        path: "/assets/logos/deepseek-logo-icon.svg",
       },
     ],
   },
@@ -145,18 +169,18 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "0703966756",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/bradley-john-chiwo",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    href: "https://x.com/Bradley_John11",
+    icon: "/assets/socials/x.svg",
   },
 ];
 
