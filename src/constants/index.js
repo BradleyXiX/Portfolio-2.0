@@ -141,7 +141,7 @@ export const myProjects = [
       "Responsive design - Works on desktop, tablet, and mobile devices",
       "Simple interface - Easy-to-use for all cooking skill levels",
     ],
-    href: "",
+    href: "https://taste-bud.onrender.com",
     source: "https://github.com/BradleyXiX/Taste-Bud",
     logo: "",
     image: "/assets/projects/TasteBud.png",
@@ -163,13 +163,51 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 6,
+    title: "Notes App",
+    description:
+      "A full-stack web application for creating, viewing, editing, and deleting notes. ",
+    subDescription: [
+      "View all notes in a responsive grid",
+      "RESTful API backend with MongoDB",
+      "Modern UI with Tailwind CSS & DaisyUI",
+      "Rate limiting to prevent abuse",
+    ],
+    href: "https://thinkboard-abdi.onrender.com",
+    source: "https://github.com/BradleyXiX/Notes-Web-App",
+    logo: "",
+    image: "/assets/projects/notes 1.png",
+    tags: [
+      {
+        id: 1,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb-icon.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "ExpressJS",
+        path: "/assets/logos/express-js-icon.svg",
+      },
+    ],
+  },
   
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "0703966756",
+    href: "https://wa.me/0703966756",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
