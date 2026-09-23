@@ -1,207 +1,119 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description:
-      "QuickCart is a basic E-commerce website template",
+    title: "InsightScraper (SaaS Foundry)",
+    description: "A serverless, multi-tenant B2B platform for automated lead scraping and filtering.",
     subDescription: [
-      "Built with Next.js, React, and Tailwind CSS.",
-      "Browse and search for products.",
-      "Authentication-ready (Clerk integration)",
-      "Fast, responsive, and mobile-friendly UI",
+      "Architected a production-ready, serverless SaaS platform that automatically scrapes and filters local business leads.",
+      "Implemented strict data isolation using PostgreSQL Row-Level Security (RLS) and Clerk for multi-tenant organization management.",
+      "Engineered an automated subscription lifecycle using Stripe Webhooks to gate API usage and handle automated grace periods.",
+      "Deployed via Dockerized AWS Lambda functions with Reserved Concurrency to protect target server health."
     ],
-    href: "https://quickcart.greatstack.in/",
-    source: "https://github.com/BradleyXiX/eCommerce-website",
+    href: "https://insight-scraper.vercel.app/",
+    source: "https://github.com/BradleyXiX/Insight-Scraper",
     logo: "",
-    image: "/assets/projects/E-commerce 1.png",
+    image: "",
     tags: [
-      {
-        id: 1,
-        name: "Next JS",
-        path: "/assets/logos/nextjs-icon.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
+      { id: 1, name: "Next JS", path: "/assets/logos/nextjs-icon.svg" },
+      { id: 2, name: "FastAPI", path: "/assets/logos/fastapi-logo.svg" },
+      { id: 3, name: "PostgreSQL", path: "/assets/logos/postgresql-logo" },
+      { id: 4, name: "AWS Lambda", path: "/assets/logos/AWS-lambda-logo.svg" },
+      { id: 5, name: "Playwright", path: "/assets/logos/playwright-logo.svg" },
+      { id: 6, name: "Clerk", path: "/assets/logos/clerk-logo.svg" },
+      { id: 7, name: "Stripe", path: "/assets/logos/stripe.svg" }
     ],
   },
   {
     id: 2,
-    title: "Movie Ticket Platform",
-    description:
-      "Showtime is a full-stack movie ticket booking application.",
+    title: "SupportGenius AI",
+    description: "A stateless AI agent utilizing RAG and function calling to provide secure, context-aware business support.",
     subDescription: [
-      "Browse now playing movie trailers (fetched from TMDB)",
-      "Book seats and pay securely",
-      "Admin dashboard for managing shows and bookings",
-      "Responsive UI built with React, Tailwind CSS, and Vite",
+      "Built a stateless AI support agent capable of executing function calling (Tool Use) to interact with business databases securely.",
+      "Implemented Retrieval-Augmented Generation (RAG) to ground the AI in specific, proprietary business data, effectively eliminating hallucinations.",
+      "Integrated a 'human-in-the-loop' verification workflow to prevent unauthorized data mutations."
     ],
-    href: "https://quickshow.vercel.app",
-    source: "https://github.com/BradleyXiX/Showtime",
+    href: "https://supportgenius-ai.onrender.com/",
+    source: "https://github.com/BradleyXiX/SupportGeniusAI",
     logo: "",
-    image: "/assets/projects/Showtime.png",
+    image: "",
     tags: [
-      {
-        id: 1,
-        name: "MongoDB",
-        path: "/assets/logos/mongodb-icon.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "Express",
-        path: "/assets/logos/express-js-icon.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 5,
-        name: "NodeJS",
-        path: "/assets/logos/node-js-icon.svg",
-      },
+      { id: 1, name: "Python", path: "/assets/logos/python-logo.svg" },
+      { id: 2, name: "LLM APIs", path: "/assets/logos/chatgpt-logo.svg" },
+      { id: 3, name: "Vector Databases", path: "/assets/logos/db-logo.svg" }
     ],
   },
   {
     id: 3,
-    title: "Chess Game",
-    description:
-      "A webpage to play chess.",
+    title: "Showtime",
+    description: "A full-stack B2B booking engine featuring real-time ticket inventory and scheduling.",
     subDescription: [
-      "Play with a friend or Computer ",
-      "Utilizes Stockfish AI",
-      "Has five levels of difficulty",
+      "Built a full-stack B2B booking engine featuring an Admin Dashboard for managing showtimes and tracking real-time sales data.",
+      "Implemented complex data aggregation in MongoDB to prevent double-booking of seats during high-traffic transactions."
     ],
-    href: "https://awsomecstutorials.github.io/chess-game/",
-    source: "https://github.com/BradleyXiX/Chess-game",
+    href: "https://showtime-client-navy.vercel.app/",
+    source: "https://github.com/BradleyXiX/Showtime",
     logo: "",
-    image: "/assets/projects/Chess-game.png",
+    image: "/assets/projects/Showtime.png",
     tags: [
-      {
-        id: 1,
-        name: "Typescript",
-        path: "/assets/logos/typescript-programming-language-icon.svg",
-      },
+      { id: 1, name: "MongoDB", path: "/assets/logos/mongodb-icon.svg" },
+      { id: 2, name: "Express", path: "/assets/logos/express-js-icon.svg" },
+      { id: 3, name: "React", path: "/assets/logos/react.svg" },
+      { id: 4, name: "NodeJS", path: "/assets/logos/node-js-icon.svg" }
     ],
   },
   {
     id: 4,
-    title: "Portfolio Template",
-    description:
-      "This is my personal portfolio website, built to showcase my skills, projects, and services as a software developer.",
+    title: "DataTurf",
+    description: "A full-stack sports statistics aggregator and analytics dashboard with automated data ingestion.",
     subDescription: [
-      "Home Section:Brief introduction and links to social profiles.",
-      "About Section: Overview of my background and approach to software development.",
-      "Projects Section: Showcases selected projects with descriptions and links.",
-      "Services Section: Outlines the services I offer, including UI/UX design, frontend, and backend development.",
+      "Built a full-stack analytics platform that scrapes, sanitizes, and visualizes sports metrics and standings across niche domains.",
+      "Architected an automated data ingestion pipeline using containerized Python scrapers (Playwright/BeautifulSoup) triggered via AWS EventBridge and AWS Lambda into PostgreSQL.",
+      "Implemented dynamic sortable data tables and interactive charts in Next.js (App Router) with skeleton loaders for optimized asynchronous data fetching."
     ],
-    href: "https://bradleyxix.github.io/Portfolio/",
-    source: "https://github.com/BradleyXiX/Portfolio",
+    href: "http://54.90.88.75/",
+    source: "https://github.com/BradleyXiX/DataTurf",
     logo: "",
-    image: "/assets/projects/Portfolio.png",
+    image: "",
     tags: [
-      {
-        id: 1,
-        name: "Javascript",
-        path: "/assets/logos/javscript.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
-      },
+      { id: 1, name: "Next JS", path: "/assets/logos/nextjs-icon.svg" },
+      { id: 2, name: "React", path: "/assets/logos/react.svg" },
+      { id: 3, name: "TypeScript", path: "/assets/logos/typescript-programming-language-icon.svg" },
+      { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 5, name: "NodeJS", path: "/assets/logos/node-js-icon.svg" },
+      { id: 6, name: "Express", path: "/assets/logos/express-js-icon.svg" },
+      { id: 7, name: "PostgreSQL", path: "/assets/logos/postgresql-logo" },
+      { id: 8, name: "Python", path: "/assets/logos/python-logo.svg" },
+      { id: 9, name: "Docker", path: "/assets/logos/docker-logo.svg" },
+      { id: 10, name: "AWS", path: "/assets/logos/AWS-logo.svg" }
     ],
   },
   {
     id: 5,
-    title: "Taste Bud",
-    description:
-      "Taste Bud is a React application that helps you discover delicious recipes based on the ingredients you have on hand, powered by the DeepSeek API.",
+    title: "ClearGig",
+    description: "A full-stack project estimation tool designed to calculate project scopes, hourly rates, and cloud infrastructure costs for engineering contracts.",
     subDescription: [
-      "Ingredient-based search - Find recipes using what you already have",
-      "AI-powered suggestions - Get creative recipe ideas from DeepSeek's advanced AI",
-      "Responsive design - Works on desktop, tablet, and mobile devices",
-      "Simple interface - Easy-to-use for all cooking skill levels",
+      "Architected an end-to-end estimation platform featuring real-time cost calculations, client management, and quote lifecycle tracking.",
+      "Designed an estimate lifecycle state machine (Draft, Sent, Accepted, Rejected) with contingency buffer and global margin controls.",
+      "Containerized microservices via Docker Compose deployed to AWS EC2 with continuous integration and deployment automated using GitHub Actions."
     ],
-    href: "https://taste-bud.onrender.com",
-    source: "https://github.com/BradleyXiX/Taste-Bud",
+    href: "http://3.84.58.16/",
+    source: "https://github.com/BradleyXiX/ClearGig",
     logo: "",
-    image: "/assets/projects/TasteBud.png",
+    image: "",
     tags: [
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "DeepSeek AI",
-        path: "/assets/logos/deepseek-logo-icon.svg",
-      },
+      { id: 1, name: "Next JS", path: "/assets/logos/nextjs-icon.svg" },
+      { id: 2, name: "React", path: "/assets/logos/react.svg" },
+      { id: 3, name: "TypeScript", path: "/assets/logos/typescript-programming-language-icon.svg" },
+      { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 5, name: "NodeJS", path: "/assets/logos/node-js-icon.svg" },
+      { id: 6, name: "Express", path: "/assets/logos/express-js-icon.svg" },
+      { id: 7, name: "Prisma ORM", path: "/assets/logos/prisma-logo.svg" },
+      { id: 8, name: "PostgreSQL", path: "/assets/logos/postgresql-logo" },
+      { id: 9, name: "Docker", path: "/assets/logos/docker-logo.svg" },
+      { id: 10, name: "AWS", path: "/assets/logos/AWS-logo.svg" },
+      { id: 11, name: "GitHub Actions", path: "/assets/logos/github.svg" }
     ],
-  },
-  {
-    id: 6,
-    title: "Notes App",
-    description:
-      "A full-stack web application for creating, viewing, editing, and deleting notes. ",
-    subDescription: [
-      "View all notes in a responsive grid",
-      "RESTful API backend with MongoDB",
-      "Modern UI with Tailwind CSS & DaisyUI",
-      "Rate limiting to prevent abuse",
-    ],
-    href: "https://thinkboard-abdi.onrender.com",
-    source: "https://github.com/BradleyXiX/Notes-Web-App",
-    logo: "",
-    image: "/assets/projects/notes 1.png",
-    tags: [
-      {
-        id: 1,
-        name: "MongoDB",
-        path: "/assets/logos/mongodb-icon.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 4,
-        name: "ExpressJS",
-        path: "/assets/logos/express-js-icon.svg",
-      },
-    ],
-  },
-  
+  }
 ];
 
 export const mySocials = [
